@@ -8,13 +8,13 @@ public class Client {
 	
 	private String nom;
 	private String prenom;
-	private List<String> listeJeu = new ArrayList();
+	private List<Achat> listeAchat = new ArrayList();
 	
 	
-	public Client(String nom, String prenom, List<String> listeJeu) {
+	public Client(String nom, String prenom, List<Achat> listeAchat) {
 		this.nom = nom;
 		this.prenom = prenom;
-		this.listeJeu = listeJeu;
+		this.listeAchat = listeAchat;
 	}
 
 
