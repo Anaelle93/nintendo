@@ -6,12 +6,14 @@ public class Jeu {
 
 	private String titre;
 	private List<Console> consoles;
+	private Boutique boutique;
 	
 	
 	
-	public Jeu(String titre, List<Console> consoles) {
+	public Jeu(String titre, List<Console> consoles,Boutique boutique) {
 		this.titre = titre;
 		this.consoles = consoles;
+		this.boutique=boutique;
 	}
 
 
@@ -36,6 +38,21 @@ public class Jeu {
 
 	public void setConsoles(List<Console> consoles) {
 		this.consoles = consoles;
+	}
+	
+	
+	
+
+
+
+	public Boutique getBoutique() {
+		return boutique;
+	}
+
+
+
+	public void setBoutique(Boutique boutique) {
+		this.boutique = boutique;
 	}
 
 
