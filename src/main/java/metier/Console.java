@@ -3,8 +3,10 @@ package metier;
 public class Console {
 
 	private String nom;
+	private int prix;
+	private String dateSortie;
 
-	public Console(String nom) {
+	public Console(String nom,int prix, String dateSortie) {
 		this.nom = nom;
 	}
 
