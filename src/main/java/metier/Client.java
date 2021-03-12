@@ -38,19 +38,22 @@ public class Client {
 	}
 
 
-	public List<Jeu> getListeJeu() {
-		return listeJeu;
+	
+
+
+	public List<Achat> getListeAchat() {
+		return listeAchat;
 	}
 
 
-	public void setListeJeu(List<Jeu> listeJeu) {
-		this.listeJeu = listeJeu;
+	public void setListeAchat(List<Achat> listeAchat) {
+		this.listeAchat = listeAchat;
 	}
 
 
 	@Override
 	public String toString() {
-		return "Client [nom=" + nom + ", prenom=" + prenom + ", listJeu=" + listeJeu + "]";
+		return "Client [nom=" + nom + ", prenom=" + prenom + ", listJeu=" + listeAchat + "]";
 	}
 	
 	

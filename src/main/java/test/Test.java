@@ -18,8 +18,8 @@ public class Test {
 
 	public static void main(String[] args) {
 		Adresse a1 = new Adresse(5,"rue","ville");
-		Console c1= new Console("ps4");
-		Console c2= new Console("xbox");
+		Console c1= new Console("ps4", 10, null);
+		Console c2= new Console("xbox", 15, null);
 		Boutique b1 = new Boutique("micro",a1);
 		
 		
