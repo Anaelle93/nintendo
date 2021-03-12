@@ -8,10 +8,10 @@ public class Client {
 	
 	private String nom;
 	private String prenom;
-	private List<String> listeJeu = new ArrayList();
+	private List<Jeu> listeJeu = new ArrayList();
 	
 	
-	public Client(String nom, String prenom, List<String> listeJeu) {
+	public Client(String nom, String prenom, List<Jeu> listeJeu) {
 		this.nom = nom;
 		this.prenom = prenom;
 		this.listeJeu = listeJeu;
@@ -38,12 +38,12 @@ public class Client {
 	}
 
 
-	public List<String> getListeJeu() {
+	public List<Jeu> getListeJeu() {
 		return listeJeu;
 	}
 
 
-	public void setListeJeu(List<String> listeJeu) {
+	public void setListeJeu(List<Jeu> listeJeu) {
 		this.listeJeu = listeJeu;
 	}
 
