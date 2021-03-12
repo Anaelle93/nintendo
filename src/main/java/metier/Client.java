@@ -38,12 +38,12 @@ public class Client {
 	}
 
 
-	public List<String> getListeJeu() {
+	public List<Jeu> getListeJeu() {
 		return listeJeu;
 	}
 
 
-	public void setListeJeu(List<String> listeJeu) {
+	public void setListeJeu(List<Jeu> listeJeu) {
 		this.listeJeu = listeJeu;
 	}
 

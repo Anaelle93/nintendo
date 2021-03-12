@@ -3,29 +3,29 @@ package metier;
 import java.time.LocalDate;
 
 public class Achat {
- private String jeu;
- private LocalDate date;
+ private Jeu jeu;
+ private String date;
  private double prix;
  
-public Achat(String jeu, LocalDate date, double prix) {
+public Achat(Jeu jeu, String date, double prix) {
 	this.jeu = jeu;
 	this.date = date;
 	this.prix = prix;
 }
 
-public String getJeu() {
+public Jeu getJeu() {
 	return jeu;
 }
 
-public void setJeu(String jeu) {
+public void setJeu(Jeu jeu) {
 	this.jeu = jeu;
 }
 
-public LocalDate getDate() {
+public String getDate() {
 	return date;
 }
 
-public void setDate(LocalDate date) {
+public void setDate(String date) {
 	this.date = date;
 }
 
